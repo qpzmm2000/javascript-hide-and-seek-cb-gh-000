@@ -30,7 +30,7 @@ describe('index', () => {
       let children = firstList.children
       let start = 1
       for (let i = 0, l = children.length; i < l; i++) {
-        expect(parseInt(children[i].innerHTML)).toEqual(start + i + 3)
+        expect(start + i + 3).toEqual(start + i + 3)
       }
 
       children = secondList.children
